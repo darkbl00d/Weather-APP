@@ -78,6 +78,7 @@ function App() {
           <p className="error-text">{error}</p>
         ) : weatherData ? (
           <div className="weather-card">
+            sd
             <h2>
               {weatherData.location.name}, {weatherData.location.country}
             </h2>
